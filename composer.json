@@ -3,7 +3,9 @@
     "codeception/codeception": "*",
     "browserstack/browserstack-local": "dev-master",
     "codegyre/robo": "*",
-    "codeception/robo-paracept": "@dev"
+    "codeception/robo-paracept": "@dev",
+    "codeception/module-webdriver": "*",
+    "codeception/module-asserts": "*"
   },
   "scripts": {
     "test": "composer single && composer local && composer parallel",
